@@ -6,12 +6,12 @@ Dessine la pile au fur et à mesure :
 
 ```
 Étape 1: [main]
-Étape 2: [main, ___]
-Étape 3: [main, ___, ___]
-Étape 4: [main, ___, ___, ___]
-Étape 5: [main, ___, ___]  ← retour de ___
-Étape 6: [main, ___]       ← retour de ___
-Étape 7: [main]            ← retour de ___
+Étape 2: [main, a]
+Étape 3: [main, a, b]
+Étape 4: [main, a, b, c]
+Étape 5: [main, a, b]  ← retour de c
+Étape 6: [main, a]       ← retour de b
+Étape 7: [main]            ← retour de a
 ```
 
 ---
@@ -23,41 +23,41 @@ Dessine la pile au fur et à mesure :
 main: debut
 ```
 
-**a :** reçoit x = ___
+**a :** reçoit x = 5
 ```
 
 ```
 
-**a :** appelle `b(x + 1)` → b(___)
+**a :** appelle `b(x + 1)` → b(6)
 
-**b :** reçoit y = ___
+**b :** reçoit y = 6
 ```
 
 ```
 
-**b :** appelle `c(y + 1)` → c(___)
+**b :** appelle `c(y + 1)` → c(7)
 
-**c :** reçoit z = ___
+**c :** reçoit z = 7
 ```
 
 
 ```
 
-**c :** retourne z * 3 = ___ * 3 = ___
+**c :** retourne z * 3 = 7 * 3 = 21
 
-**Retour dans b :** val = ___
+**Retour dans b :** val = 21
 ```
 
 ```
-**b :** retourne val + 10 = ___ + 10 = ___
+**b :** retourne val + 10 = 21 + 10 = 31
 
-**Retour dans a :** val = ___
+**Retour dans a :** val = 31
 ```
 
 ```
-**a :** retourne val * 2 = ___ * 2 = ___
+**a :** retourne val * 2 = 31 * 2 = 62
 
-**Retour dans main :** resultat = ___
+**Retour dans main :** resultat = 62
 ```
 
 
