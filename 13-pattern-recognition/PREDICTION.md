@@ -11,9 +11,9 @@
 - Boucle : res = res + t[i]
 - Return res
 
-**Nom du pattern :** ___
+**Nom du pattern :** Calcul de la Somme
 
-**Résultat prédit :** func1(nombres) = ___
+**Résultat prédit :** func1(nombres) = 39
 
 ---
 
@@ -24,9 +24,9 @@
 - Boucle : si t[i] < res alors res = t[i]
 - Return res
 
-**Nom du pattern :** ___
+**Nom du pattern :** Recherche minimum
 
-**Résultat prédit :** func2(nombres) = ___
+**Résultat prédit :** func2(nombres) = 1
 
 ---
 
@@ -37,9 +37,9 @@
 - Boucle : si t[i] > val alors res++
 - Return res
 
-**Nom du pattern :** ___
+**Nom du pattern :** Compte les nombres supérieur à val
 
-**Résultat prédit :** func3(nombres, 5) = ___
+**Résultat prédit :** func3(nombres, 5) = 3 (7, 8, 9)
 
 ---
 
@@ -49,9 +49,9 @@
 - Boucle : si t[i] == val alors return i
 - Après boucle : return -1
 
-**Nom du pattern :** ___
+**Nom du pattern :** Recherche
 
-**Résultat prédit :** func4(nombres, 5) = ___
+**Résultat prédit :** func4(nombres, 5) = 4 (L'élément 5 est à l'indice 4)
 
 ---
 
@@ -61,6 +61,6 @@
 - Boucle : si t[i] == val alors return true
 - Après boucle : return false
 
-**Nom du pattern :** ___
+**Nom du pattern :** Vérification
 
-**Résultat prédit :** func5(nombres, 5) = ___
+**Résultat prédit :** func5(nombres, 5) = True (L'élément 5 est dans le tableau)
