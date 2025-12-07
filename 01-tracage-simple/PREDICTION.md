@@ -14,7 +14,9 @@
 
 **Lignes 7-9 :** Affichages
 ```
-
+a = 5
+b = 10
+c = 15
 ```
 
 **Ligne 11 :** `a = a + 3;`
@@ -31,7 +33,9 @@
 
 **Lignes 15-18 :** Affichages
 ```
-
+a = 8
+b = 8
+c = 64
 ```
 
 **Ligne 20 :** `int resultat = c / a;`
@@ -40,7 +44,7 @@
 
 **Ligne 21 :** Affichage final
 ```
-
+resultat = 8
 ```
 
 
