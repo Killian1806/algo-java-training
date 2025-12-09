@@ -40,4 +40,5 @@ public class Inventaire {
 
     // TODO: Ajouter la méthode afficherCher(double seuil)
     // qui affiche les produits dont le prix est supérieur au seuil
+    
 }
